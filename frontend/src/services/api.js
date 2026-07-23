@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'https://hiring-ai-production.up.railway.app'
+  baseURL: 'https://talentlens-production-eb5f.up.railway.app'
 })
 
 export const createJob = (data) => API.post('/jobs/create', data)
